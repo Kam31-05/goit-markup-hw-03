@@ -188,8 +188,10 @@ gap: 24px;
  width calc ((100% - 3*24px)/4);
 }
 
-.team {
+.container-team {
     background: #f4f4fd;
+    display: flex;
+    align-items: ce;
 }
 .head-two {
 text-transform: capitalize;    
