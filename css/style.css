@@ -29,6 +29,9 @@ h1, h2, h3, h4, h5, h6, p{
     gap: 40px;
     
 }
+img{
+    display: block;
+}
 .contacts-list{
     display: flex;
     align-items: center;
@@ -112,14 +115,16 @@ color: #f4f4fd;
 } 
 
 .solution-container{
-    display: flex;
-    align-items: center;
-    max-width: 1158px;
+    display: block;
+    align-items: center;    
+    padding: 188px 0;
+    margin: 0 auto;
 }
 .solution {
     background: #2e2f42;
     align-items: center;
-    padding: 188px 0;
+    max-width: 1158px;
+    
 }
 .solution-text {
 font-weight: 700;
