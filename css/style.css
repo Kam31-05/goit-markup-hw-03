@@ -6,10 +6,46 @@ body {
 }
 ul, ol{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.list-nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+.contacts-list{
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 a{
     text-decoration: none;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 .logo{
 font-family: "Raleway", sans-serif;
@@ -23,12 +59,16 @@ color: #4d5ae5;
 .header-logo .logo-part{
     color: #2e2f42;
 }
+
 .nav-link{
+display: block;    
+padding: 24px 0;    
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+
 }
 
 .nav-link:hover,
@@ -37,8 +77,17 @@ color: #2e2f42;
 }
 .contacts {
 font-style: normal;
+margin-left: auto;
+}
+
+.contacts-list{
+    display:flex;
+    align-items: center;
+    gap: 40px;
 }
 .contacts-link{
+display: block;
+padding: 24px 0;    
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -61,8 +110,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 } 
+
+.solution-container{
+    display: flex;
+    align-items: center;
+    max-width: 1158px;
+}
 .solution {
     background: #2e2f42;
+    align-items: center;
+    padding: 188px 0;
 }
 .solution-text {
 font-weight: 700;
@@ -71,7 +128,11 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+margin: 0 auto;
+align-items: center;
+max-width: 496px;
 }
+
 .solution-button {   
 background-color: #4d5ae5;
 font-weight: 500;
@@ -80,11 +141,34 @@ line-height: 1.5;
 cursor: pointer;
 letter-spacing: 0.04em;
 color: #fff;
+margin-top: 48px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-radius: 4px;
+display: block;
+width: 169px;
+height: 56px;
 }
 .solution-button:hover,
 .solution-button:focus {
     background-color: #404BBF;
 }
+.section{
+    padding: 120px;
+   
+}
+.container container-advant{
+    margin: 0 auto; 
+}
+.list-advant{
+display: flex;
+align-items: center;
+gap: 40px;
+width: calc ((100% - 72px) / 4);
+
+}
+
 .team {
     background: #f4f4fd;
 }
